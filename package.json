@@ -3,7 +3,8 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "proxy": "https://cors-anywhere.herokuapp.com/https://api.deezer.com",
+  "proxy": "https://api.deezer.com",
+  "homepage":"https://melodify11.netlify.app/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
