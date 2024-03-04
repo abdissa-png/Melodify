@@ -109,10 +109,6 @@ export const apiQuery = async ({ endpoint, config, method = "GET" }) => {
     const options = {
       url: getBaseUrl(endpoint),
       method,
-      headers : {
-        'Access-Control-Allow-Origin' : '*',
-        'Access-Control-Allow-Methods':'GET,PUT,POST,DELETE,PATCH,OPTIONS',
-      },
       ...config,
     };
 
