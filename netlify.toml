@@ -10,6 +10,7 @@
   from = "/*"
   to = "/index.html"
   status = 200
+  /api/* https://api.deezer.com/:splat 200
 
 [build.environment]
     NODE_VERSION = "v20.9.0"
