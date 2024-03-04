@@ -12,5 +12,5 @@
   status = 200
 
 [build.environment]
-    NODE_VERSION = "14.15.0"
-    NPM_VERSION = "8.5.5"
+    NODE_VERSION = "v20.9.0"
+    NPM_VERSION = "10.2.1"
