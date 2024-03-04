@@ -15,7 +15,7 @@
 [[headers]]
  for = "/*"
  [headers.values]
-    Access-Control-Allow-Origin = "*"
+    Access-Control-Allow-Origin = "https://api.deezer.com"
 
 [build.environment]
     NODE_VERSION = "v20.9.0"
