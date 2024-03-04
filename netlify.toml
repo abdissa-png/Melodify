@@ -8,12 +8,6 @@
 ## Not needed for static site generators.
 
 [[redirects]]
-  from = "/api"
-  to = "https://api.deezer.com"
-  status = 200
-  force = true
-
-[[redirects]]
   from = "/*"
   to = "/index.html"
   status = 200
