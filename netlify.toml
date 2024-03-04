@@ -13,9 +13,9 @@
   status = 200
 
 [[headers]]
- for = "/*"
+ for = "/api/*"
  [headers.values]
-    Access-Control-Allow-Origin = "https://api.deezer.com"
+    Access-Control-Allow-Origin = "*"
 
 [build.environment]
     NODE_VERSION = "v20.9.0"
