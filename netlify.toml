@@ -11,9 +11,8 @@
   to = "/index.html"
   status = 200
   force = true
-  headers = [
-    { for = "/*", values = { "Access-Control-Allow-Origin" = "*" } }
- ]
+  [redirects.headers]
+     Access-Control-Allow-Origin = "*"
   
 [build.environment]
     NODE_VERSION = "v20.9.0"
