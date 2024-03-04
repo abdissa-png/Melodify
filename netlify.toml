@@ -10,9 +10,7 @@
   from = "/*"
   to = "/index.html"
   status = 200
-  from = "/api"
-  to = "https://api.deezer.com"
-  status = 200
+  headers = {Access-Control-Allow-Origin: “*”}
   
 [build.environment]
     NODE_VERSION = "v20.9.0"
