@@ -15,7 +15,7 @@
 [[headers]]
  for = "/api/*"
  [headers.values]
-    Access-Control-Allow-Origin = "*"
+    Access-Control-Allow-Origin = "https://groov.netlify.app"
 
 [build.environment]
     NODE_VERSION = "v20.9.0"
