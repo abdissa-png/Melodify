@@ -7,13 +7,10 @@ Melodify not only provides a vast library of songs but also enhances your music 
 
 - [Description](#description)
 - [Features](#features)
-- [Screenshots](#screenshots)
 - [Live Demo](#live-demo)
 - [Tech Stack](#tech-stack)
 - [Installation](#installation)
   - [Firebase Setup](#firebase-setup)
-- [Usage](#usage)
-- [Additional Information](#additional-information)
 
 ## Description
 
@@ -53,7 +50,9 @@ Melodify provides a seamless music listening experience with features such as us
 8. **Theme Switcher:**
     - Fully customizable theme switcher to personalize your visual experience.
 
+## Live demo
 
+Check the website [here](https://melodify11.netlify.app)
 
 ## Tech Stack
 
